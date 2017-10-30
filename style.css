@@ -1,0 +1,40 @@
+#clear {
+  background-color: yellow;
+  height: 30px;
+  width: 60px;
+}
+
+#set {
+  background-color: yellow;
+  height: 30px;
+  width: 60px;
+}
+
+.cell {
+  background-color: purple;
+  text-align: center;
+  height: 32px;
+  width: 32px;
+  float: left;
+}
+
+.cell2 {
+  background-color: black;
+  text-align: center;
+  height: 32px;
+  width: 32px;
+  float: left;
+}
+
+.rows {}
+
+#row2 {}
+
+#container {
+  max-height: 512px;
+  max-width: 512px;
+  height: 512px;
+  width: 512px;
+  float: center;
+  background-color: blue;
+}
