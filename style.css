@@ -1,20 +1,40 @@
-#clear {
-  background-color: yellow;
-  height: 30px;
-  width: 60px;
+body {
+	background-image: url("https://images7.alphacoders.com/843/843678.jpg");
+	background-size: cover;
 }
 
-#set {
-  background-color: yellow;
+#button_container {
+	text-align: center;
+}
+
+.buttons {
   height: 30px;
-  width: 60px;
+  width: 70px;
+  background-color: #E91E63;
+  border: 1px solid #D81B60;
+  border-radius: 2px;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 5px;
+  opacity: 0.8;
+}
+
+.buttons:hover {
+  border: 1px solid #c6c6c6;
+  opacity: 1;
+  color: #222;
+}
+
+.buttons:focus {
+  outline: 0;
 }
 
 .cell {
-  background-color: purple;
+  background-color: #9C27B0;
   text-align: center;
-  height: 32px;
-  width: 32px;
+  height: 15px;
+  width: 15px;
   float: left;
 }
 
@@ -26,15 +46,12 @@
   float: left;
 }
 
-.rows {}
-
-#row2 {}
-
 #container {
-  max-height: 512px;
-  max-width: 512px;
-  height: 512px;
-  width: 512px;
+  max-height: 960px;
+  max-width: 960px;
+  height: 960px;
+  width: 960px;
   float: center;
-  background-color: blue;
+	margin:0 auto;
 }
+
